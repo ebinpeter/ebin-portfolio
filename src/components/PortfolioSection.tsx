@@ -10,7 +10,7 @@ const PortfolioSection = () => {
     },
     {
       title: 'Prefect Hardware Application',
-      description: 'Web/mobile system for managing hardware products and services with inventory management and customer relationship features.',
+      description: 'Developed a mobile app for a hardware store using Flutter, Firebase, and GetX, featuring multi-role login (Admin, Contractor, Electrician, Guest). Enabled Admin to manage users, products, ads, and reward points. Users can submit bills; Admin verifies and assigns points. Ensured secure role-based access and real-time data synchronization with Firebase.',
       image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop',
       technologies: ['Flutter', 'BLoC', 'RESTful API', 'Firebase', 'CI/CD'],
       features: ['Inventory management', 'Order tracking', 'Customer CRM', 'Analytics dashboard']
