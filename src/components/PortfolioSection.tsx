@@ -2,10 +2,10 @@ const PortfolioSection = () => {
   const projects = [
     {
       title: 'Yadava Milk Delivery App',
-      description: 'Mobile app for efficient milk delivery scheduling and tracking with real-time location updates and customer management.',
+      description: 'Built a mobile app for managing delivery and inventory operations using Flutter with BLoC architecture and REST APIs. Features include customer and invoice management, route and vehicle assignment, live stock and sales tracking, delivery location mapping, and offline support with connectivity checks.',
       image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop',
-      technologies: ['Flutter', 'Firebase', 'GetX', 'Live Location', 'Payment Gateway'],
-      features: ['Real-time tracking', 'Automated scheduling', 'Customer portal', 'Payment integration']
+      technologies: ['Flutter', 'BLoC', 'REST API'],
+      features: ['Real time tracking', 'Google map integrating', 'Show the current stocks']
     },
     {
       title: 'Prefect Hardware Application',
