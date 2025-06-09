@@ -31,7 +31,7 @@ const HeroSection = () => {
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-neon-blue to-tech-green p-1 animate-glow">
               <div className="w-full h-full rounded-full bg-dark-card flex items-center justify-center overflow-hidden">
                 <img 
-                  src={`https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face`}
+                  src="https://i.postimg.cc/rmfgn08K/Whats-App-Image-2025-02-25-at-10-45-25-PM.jpg"
                   alt="Ebin Peter Joseph"
                   className="w-full h-full object-cover rounded-full"
                 />
