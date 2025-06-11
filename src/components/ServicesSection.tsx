@@ -21,6 +21,11 @@ const ServicesSection = () => {
     }
   ];
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section id="services" className="section-padding bg-dark-bg">
       <div className="max-w-6xl mx-auto">
@@ -63,7 +68,10 @@ const ServicesSection = () => {
               </ul>
               
               <div className="mt-6 pt-6 border-t border-gray-700">
-                <button className="w-full bg-gradient-to-r from-neon-blue/20 to-tech-green/20 hover:from-neon-blue/30 hover:to-tech-green/30 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 border border-gray-600 hover:border-neon-blue">
+                <button 
+                  onClick={scrollToContact}
+                  className="w-full bg-gradient-to-r from-neon-blue/20 to-tech-green/20 hover:from-neon-blue/30 hover:to-tech-green/30 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 border border-gray-600 hover:border-neon-blue"
+                >
                   Get Started
                 </button>
               </div>
