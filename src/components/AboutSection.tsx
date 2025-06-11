@@ -13,24 +13,20 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <p className="text-gray-300 text-lg leading-relaxed">
-              I am <span className="text-neon-blue font-semibold">Ebin Peter Joseph</span>, a Bachelor of Commerce (B.Com) graduate and a Flutter Developer with <span className="text-tech-green font-semibold">1.4 years of experience</span> in creating user-centric mobile applications.
+              Are you looking for a reliable and professional Flutter developer to bring your mobile app idea to life? You're in the right place.
             </p>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              I specialize in <span className="text-neon-blue">Flutter, Dart</span>, and state management techniques like <span className="text-tech-green">GetX and BLoC</span>, focusing on building scalable and efficient apps that ensure seamless user experiences.
+              I'm a passionate Flutter developer with <span className="text-neon-blue font-semibold">over 2 years of experience</span> in building high-quality, cross-platform mobile applications for both iOS and Android. I specialize in creating scalable, intuitive, and user-focused apps that not only look great but perform flawlessly.
             </p>
             
-            <div className="grid sm:grid-cols-2 gap-6 mt-8">
-              <div className="bg-dark-bg p-6 rounded-lg border border-gray-700 hover:border-neon-blue transition-colors duration-300">
-                <h3 className="text-xl font-semibold text-white mb-2">Education</h3>
-                <p className="text-gray-300">B.Com Graduate</p>
-              </div>
-              
-              <div className="bg-dark-bg p-6 rounded-lg border border-gray-700 hover:border-tech-green transition-colors duration-300">
-                <h3 className="text-xl font-semibold text-white mb-2">Location</h3>
-                <p className="text-gray-300">Kochi, India</p>
-              </div>
-            </div>
+            <p className="text-gray-300 text-lg leading-relaxed">
+              From clean architecture and state management (using <span className="text-tech-green font-semibold">GetX and BLoC</span>) to pixel-perfect UI design and seamless functionality, I take care of the entire development process. My focus is always on delivering smooth user experiences that reflect your vision and goals.
+            </p>
+            
+            <p className="text-gray-300 text-lg leading-relaxed">
+              I love building beautiful, functional apps—and even more, I enjoy seeing people use and benefit from them.
+            </p>
           </div>
           
           <div className="bg-gradient-to-br from-dark-bg to-dark-accent p-8 rounded-2xl border border-gray-700 animate-fade-in">
@@ -38,7 +34,7 @@ const AboutSection = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-neon-blue rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">1.4+ years of hands-on Flutter development experience</span>
+                <span className="text-gray-300">2+ years of hands-on Flutter development experience</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-tech-green rounded-full mt-2 flex-shrink-0"></div>
