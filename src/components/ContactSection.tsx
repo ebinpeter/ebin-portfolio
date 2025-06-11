@@ -72,53 +72,7 @@ const ContactSection = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Info */}
-          <div className="space-y-8">
-            <div className="bg-dark-card p-8 rounded-2xl border border-gray-700">
-              <h3 className="text-2xl font-bold text-white mb-6">Let's Connect</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-neon-blue/20 rounded-lg flex items-center justify-center">
-                    <span className="text-neon-blue text-xl">📧</span>
-                  </div>
-                  <div>
-                    <h4 className="text-white font-semibold">Email</h4>
-                    <p className="text-gray-300">ebin.peter.joseph@email.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-tech-green/20 rounded-lg flex items-center justify-center">
-                    <span className="text-tech-green text-xl">📱</span>
-                  </div>
-                  <div>
-                    <h4 className="text-white font-semibold">Phone</h4>
-                    <p className="text-gray-300">+91 9876543210</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-neon-blue/20 rounded-lg flex items-center justify-center">
-                    <span className="text-neon-blue text-xl">📍</span>
-                  </div>
-                  <div>
-                    <h4 className="text-white font-semibold">Location</h4>
-                    <p className="text-gray-300">Kochi, Kerala, India</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="mt-8 pt-8 border-t border-gray-700">
-                <Button className="w-full bg-gradient-to-r from-tech-green to-green-500 hover:from-green-600 hover:to-tech-green text-white font-semibold py-3 rounded-lg transition-all duration-300">
-                  <span className="mr-2">💬</span>
-                  WhatsApp Me
-                </Button>
-              </div>
-            </div>
-          </div>
-          
+        <div className="max-w-2xl mx-auto">
           {/* Contact Form */}
           <div className="bg-dark-card p-8 rounded-2xl border border-gray-700">
             <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>

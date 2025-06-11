@@ -1,3 +1,4 @@
+
 const PortfolioSection = () => {
   const projects = [
     {
@@ -84,15 +85,6 @@ const PortfolioSection = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
-                
-                <div className="flex space-x-4">
-                  <button className="flex-1 bg-gradient-to-r from-neon-blue to-tech-green hover:from-tech-green hover:to-neon-blue text-dark-bg font-semibold py-3 px-6 rounded-lg transition-all duration-300">
-                    View Details
-                  </button>
-                  <button className="flex-1 border border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-dark-bg font-semibold py-3 px-6 rounded-lg transition-all duration-300">
-                    Live Demo
-                  </button>
                 </div>
               </div>
             </div>
