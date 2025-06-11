@@ -31,24 +31,30 @@ const AboutSection = () => {
           
           <div className="bg-gradient-to-br from-dark-bg to-dark-accent p-8 rounded-2xl border border-gray-700 animate-fade-in">
             <h3 className="text-2xl font-bold text-white mb-6">Why Choose Me?</h3>
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+              With over 2 years of real-world experience in Flutter app development, I focus on delivering mobile apps that are fast, reliable, and enjoyable to use. Here's why clients love working with me:
+            </p>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-neon-blue rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">2+ years of hands-on Flutter development experience</span>
+                <span className="text-gray-300">Skilled in building apps that work seamlessly on both Android and iOS</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-tech-green rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">Expertise in modern state management solutions</span>
+                <span className="text-gray-300">Expert in creating smooth, responsive, and user-friendly designs</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-neon-blue rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">Focus on user-centric design and performance</span>
+                <span className="text-gray-300">Strong understanding of app structure to ensure long-term performance and stability</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-tech-green rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">Experience with CI/CD and modern development practices</span>
+                <span className="text-gray-300">Committed to turning your ideas into polished apps that users will love</span>
               </li>
             </ul>
+            <p className="text-gray-300 text-lg leading-relaxed mt-6">
+              I take care of the technical side so you can focus on your vision—stress-free and with full confidence.
+            </p>
           </div>
         </div>
       </div>
