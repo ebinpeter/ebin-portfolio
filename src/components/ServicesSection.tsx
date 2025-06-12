@@ -1,4 +1,3 @@
-
 const ServicesSection = () => {
   const services = [
     {
@@ -18,6 +17,12 @@ const ServicesSection = () => {
       description: 'Modern and intuitive interfaces that elevate user experience.',
       icon: '🎨',
       features: ['Custom animations', 'Material Design', 'Responsive layouts', 'User-centric design']
+    },
+    {
+      title: 'Website & App Maintenance',
+      description: 'Ongoing support and maintenance for your applications and websites.',
+      icon: '🛠️',
+      features: ['Bug fixing and patch updates', 'Version upgrades & SDK updates', 'Performance monitoring & tuning', 'Content and UI/UX improvements', 'Security checks and backups']
     }
   ];
 
@@ -39,7 +44,7 @@ const ServicesSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div 
               key={service.title}
