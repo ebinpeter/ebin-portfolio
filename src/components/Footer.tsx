@@ -1,4 +1,6 @@
 
+import { Phone, Github, Mail } from 'lucide-react';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -15,28 +17,30 @@ const Footer = () => {
           
           <div className="flex justify-center space-x-6 mb-6">
             <a 
-              href="mailto:ebin.peter.joseph@email.com"
+              href="tel:+919746379976"
+              className="text-gray-400 hover:text-neon-blue transition-colors duration-300"
+              aria-label="Phone"
+            >
+              <Phone size={24} />
+            </a>
+            <a 
+              href="https://github.com/ebinpeter"
+              className="text-gray-400 hover:text-tech-green transition-colors duration-300"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github size={24} />
+            </a>
+            <a 
+              href="mailto:ebinpeter94@gmail.com"
               className="text-gray-400 hover:text-neon-blue transition-colors duration-300"
               aria-label="Email"
             >
-              <span className="text-xl">📧</span>
+              <Mail size={24} />
             </a>
             <a 
-              href="https://github.com"
-              className="text-gray-400 hover:text-tech-green transition-colors duration-300"
-              aria-label="GitHub"
-            >
-              <span className="text-xl">💻</span>
-            </a>
-            <a 
-              href="https://linkedin.com"
-              className="text-gray-400 hover:text-neon-blue transition-colors duration-300"
-              aria-label="LinkedIn"
-            >
-              <span className="text-xl">💼</span>
-            </a>
-            <a 
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919746379976"
               className="text-gray-400 hover:text-tech-green transition-colors duration-300"
               aria-label="WhatsApp"
             >
