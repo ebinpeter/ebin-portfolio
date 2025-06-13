@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { MapPin, Phone, Calendar, Linkedin } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 const ContactSection = () => {
@@ -64,15 +65,71 @@ const ContactSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Get In <span className="text-neon-blue">Touch</span>
+            Let's Create <span className="text-neon-blue">Something Amazing!</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-neon-blue to-tech-green mx-auto"></div>
           <p className="text-gray-300 mt-6 max-w-2xl mx-auto">
             Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
           </p>
         </div>
-        
-        <div className="max-w-2xl mx-auto">
+
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          {/* Contact Information */}
+          <div className="bg-dark-card p-8 rounded-2xl border border-gray-700">
+            <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
+            
+            <div className="space-y-6">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-neon-blue/20 to-tech-green/20 rounded-lg flex items-center justify-center">
+                  <MapPin className="text-neon-blue" size={20} />
+                </div>
+                <div>
+                  <p className="text-white font-semibold">Location</p>
+                  <p className="text-gray-300">Kerala, India</p>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-neon-blue/20 to-tech-green/20 rounded-lg flex items-center justify-center">
+                  <Phone className="text-tech-green" size={20} />
+                </div>
+                <div>
+                  <p className="text-white font-semibold">Phone</p>
+                  <a href="tel:+919746379976" className="text-gray-300 hover:text-neon-blue transition-colors">
+                    +91 9746379976
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-neon-blue/20 to-tech-green/20 rounded-lg flex items-center justify-center">
+                  <Linkedin className="text-neon-blue" size={20} />
+                </div>
+                <div>
+                  <p className="text-white font-semibold">LinkedIn</p>
+                  <a 
+                    href="https://linkedin.com/in/ebin-peter" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-neon-blue transition-colors"
+                  >
+                    Ebin Peter
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-neon-blue/20 to-tech-green/20 rounded-lg flex items-center justify-center">
+                  <Calendar className="text-tech-green" size={20} />
+                </div>
+                <div>
+                  <p className="text-white font-semibold">Working Days</p>
+                  <p className="text-gray-300">Monday - Friday</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           {/* Contact Form */}
           <div className="bg-dark-card p-8 rounded-2xl border border-gray-700">
             <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>
