@@ -73,12 +73,12 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-1 gap-12 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Contact Information */}
           <div className="bg-dark-card p-8 rounded-2xl border border-gray-700">
             <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-neon-blue/20 to-tech-green/20 rounded-lg flex items-center justify-center">
                   <MapPin className="text-neon-blue" size={20} />
