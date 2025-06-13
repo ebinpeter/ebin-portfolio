@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -108,7 +107,7 @@ const ContactSection = () => {
                 <div>
                   <p className="text-white font-semibold">LinkedIn</p>
                   <a 
-                    href="https://linkedin.com/in/ebin-peter" 
+                    href="https://www.linkedin.com/in/ebin-peter-86536a1a4/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-neon-blue transition-colors"
